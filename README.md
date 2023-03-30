@@ -12,7 +12,7 @@ pip install ./utils_map/ lapjv-1.3.1.tar.gz
 ## Usage
 ### Integration Step
 ```bash
-python main_IE-MOIF.py --data <i>omics1_file omics2_file omics3_file</i> --label <i>label_file</i> --type <i>omics_1_name omics_2_name omics_3_name</i> --fs_num 1000 1000 500
+python main_IE-MOIF.py --data omics1_file omics2_file omics3_file --label label_file --type omics_1_name omics_2_name omics_3_name --fs_num 1000 1000 500
 ```
 ### Classification Step
 
